@@ -29,6 +29,7 @@ class Counter extends Component {
     const { counter } = this.state
     return (
       <>
+        <h1>{this.props.title}</h1>
         <p>{counter}</p>
         <ButtonGroup>
           <Button onClick={this.tambah}>Tambah</Button>

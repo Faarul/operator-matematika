@@ -49,6 +49,7 @@ class Calculator extends Component {
   render() {
     return (
       <div>
+        <h1>{this.props.title}</h1>
         <Form onSubmit={this.handlerSubmit.bind(this)}>
           <FormGroup>
             <Input type="text" name="nilai1" placeholder="Masukan Nilai 1" />
